@@ -1,0 +1,128 @@
+/* @font-face {
+  font-family: "Overpass";
+  src: url(https://fonts.google.com/specimen/Overpass) format("truetype");} */
+
+
+.ratingBox{
+  height: 26rem;
+  width: 25.7rem;
+  
+  border-radius: 30px;
+
+background: radial-gradient(99.00% 99.00% at 50% 0%,rgb(35, 42, 52),rgb(24, 30, 39) 100%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 32px;
+gap: 32px;
+position: relative;
+}
+
+html{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background: rgb(30, 30, 30);
+font-family: 'OverPass';
+}
+
+header>h1{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text{
+  color: rgb(150, 159, 173);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.textBox{
+  width: 340px;
+height: 72px;
+}
+
+.submitButton{
+  width: 341px;
+  height: 45px;
+  border-radius: 22.5px;
+  /* background-color: #FC7614; */
+  font-size: 15px;
+  font-family: 'OverPass';
+  font-weight: 700;
+  /* color: #FFFFFF; */
+  cursor: pointer;
+  border: none;
+  letter-spacing: 2px;
+}
+.numBox{
+  font-family: 'OverPass';
+  font-weight: 700;
+  font-size: 16px;
+}
+.fabBox{
+  display: flex;
+  gap: 21px;
+}
+.starBox{
+  position: absolute;
+  top: 22px;
+  left: 62px;
+}
+
+.css-1dhqly6-MuiButtonBase-root-MuiFab-root{
+  font-family: 'OverPass' !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+
+/* THANK YOU COMPONENT STYLING */
+.svgBox{
+  width: 162px;
+height: 108px;
+}
+.appreciationText{
+  width: 340px;
+height: 72px;
+}
+.appreciationText>p{
+  color: rgb(150, 159, 173);
+font-family: Overpass;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+}
+
+.thankYouHeading{
+  color: rgb(255, 255, 255);
+font-family: Overpass;
+font-size: 28px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.selection{
+  border-radius: 22.5px;
+background: rgb(38, 46, 56);
+width: 193px;
+height: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FC7614;
+}
+
+/* .thankYouBox{
+  background: radial-gradient(99.00% 99.00% at 50% 0%,rgb(35, 42, 52),rgb(24, 30, 39) 100%);
+} */
+
