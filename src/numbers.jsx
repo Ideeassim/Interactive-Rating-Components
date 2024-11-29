@@ -13,7 +13,7 @@ function Numbers(props) {
 
     return num.map((x, index) =>{
        return <Fab color={props.clickId == x.id? props.col2: props.col}
-        sx={{fontSize: 18, fontFamily:'OverPass',  '&:hover': {color: '#FFFFFF', backgroundColor: '#7C8798'} }} key={index} id={index} 
+        sx={{fontSize: 18, fontFamily:'OverPass', height:{xs:'1rem', md:'3rem', lg:'3rem'}, '&:hover': {color: '#FFFFFF', backgroundColor: '#7C8798'}} } key={index} id={index} 
         onClick={props.userClicked}>{x.value}</Fab>         
          
       }) 
