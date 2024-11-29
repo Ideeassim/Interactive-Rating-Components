@@ -1,10 +1,6 @@
-/* @font-face {
-  font-family: "Overpass";
-  src: url(https://fonts.google.com/specimen/Overpass) format("truetype");} */
-
 
 .ratingBox{
-  height: 26rem;
+  height: 30rem;
   width: 25.7rem;
   
   border-radius: 30px;
@@ -17,6 +13,14 @@ align-items: center;
 padding: 32px;
 gap: 32px;
 position: relative;
+}
+.inner-rating-box{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 32px;
+gap: 32px;
 }
 
 html{
@@ -51,11 +55,9 @@ height: 72px;
   width: 341px;
   height: 45px;
   border-radius: 22.5px;
-  /* background-color: #FC7614; */
   font-size: 15px;
   font-family: 'OverPass';
-  font-weight: 700;
-  /* color: #FFFFFF; */
+  font-weight: 700;  
   cursor: pointer;
   border: none;
   letter-spacing: 2px;
@@ -122,7 +124,51 @@ align-items: center;
 color: #FC7614;
 }
 
-/* .thankYouBox{
-  background: radial-gradient(99.00% 99.00% at 50% 0%,rgb(35, 42, 52),rgb(24, 30, 39) 100%);
-} */
 
+/* MOBILE MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .ratingBox{
+    height: 22.5rem ;
+    width:14.4rem ;
+  }
+  
+  .inner-rating-box{
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+  header>h1{
+    font-size: 1.5rem;
+  }
+  .text{
+    font-size: 0.8rem;
+    line-height: 1.37rem;
+  }
+  .textBox{
+    width: 15.6rem;
+  height: 72px;
+  }
+  .fabBox{
+    width: 15rem;
+    
+  }
+  .css-d2iwo8-MuiButtonBase-root-MuiFab-root{
+    height: 2.5rem !important;
+  }
+
+  .submitButton{
+    width: 15rem;
+  }
+  .starBox{
+    top: 22px;
+    left: 18px;
+  }
+  .appreciationText{
+    width: 15.6rem;
+    margin-top: 0.3rem;
+  }
+  .thankYouHeading>h1{
+    margin-top: 0.62rem;
+    margin-bottom: 0rem;
+  }
+}

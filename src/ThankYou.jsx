@@ -1,7 +1,6 @@
 import React from "react";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
 import svg from './assets/images/illustration-thank-you.svg';
-import Numbers from "./numbers";
+
 
 function ThankYou(props) {
     return <div>

@@ -1,9 +1,8 @@
-import { React, useState } from 'react'
+import  React from 'react'
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Numbers from './numbers';
 import Fab from '@mui/material/Fab';
 import StarIcon from '@mui/icons-material/Star';
-import Submit from './submit';
+
 
 const { palette } = createTheme();
 const theme = createTheme({
@@ -38,7 +37,7 @@ function Rating() {
     return (
         <>
         <ThemeProvider theme={theme}>
-         <div className='ratingBox'>      
+         <div>      
             
             <section>
               <div className='starBox'><Fab color='myAwesomeColor'><StarIcon color='myOrangeColor'/></Fab></div>
@@ -50,18 +49,7 @@ function Rating() {
                     to help us improve our offering!</p>
                 </div>
             </section>
-            <section className='fabBox'>         
-             <Numbers 
-             col= 'myAwesomeColor'
-             col2 ='myOrangeColor'        
-             />
-           
-            </section>
-            <section>
-              
-              <Submit />
-              
-            </section>
+            
          </div>
          </ThemeProvider>
         </>
